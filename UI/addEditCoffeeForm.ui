@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddEditCoffeeForm</class>
+ <widget class="QMainWindow" name="AddEditCoffeeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add/Edit Coffee</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="idLabel">
+        <property name="text">
+         <string>ID:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="idField">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="varietyLabel">
+        <property name="text">
+         <string>Variety:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="varietyField"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="roastingLabel">
+        <property name="text">
+         <string>Roasting Degree:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="roastingField"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="formLabel">
+        <property name="text">
+         <string>Form:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="formField"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="tasteLabel">
+        <property name="text">
+         <string>Taste Description:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="tasteField"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="priceLabel">
+        <property name="text">
+         <string>Price:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="priceField"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="volumeLabel">
+        <property name="text">
+         <string>Package Volume:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="volumeField"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="saveButton">
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
